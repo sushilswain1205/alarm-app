@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "887324140320",
+    "project_id": "nursecallingapp",
+    "storage_bucket": "nursecallingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887324140320:android:a07285773908ba7d162d45",
+        "android_client_info": {
+          "package_name": "com.example.nursecallingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887324140320-agm4np897dtmc1uv51hh2evih11gpt9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjqS7niBc8Ft1NE5Y2uzFrI5Ztpvot_4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887324140320-agm4np897dtmc1uv51hh2evih11gpt9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
