@@ -115,6 +115,8 @@ class UserController extends GetxController {
     isActiveListLoaded.refresh();
   }
   fetchInActivity()async{
+    inActiveAlarmList.value.clear();
+    inActiveAlarmList.refresh();
     FirebaseFirestore.instance.collection("alarm").where("isSeen",isEqualTo: true).orderBy("sent_date",descending:false ).get().then((value) {
       print("========================userController.getUserDetails.userName!");
       print(value.size);

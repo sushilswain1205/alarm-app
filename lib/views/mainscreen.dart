@@ -160,7 +160,7 @@ class _MainScreenState extends State<MainScreen> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text("Patient is in trouble",style: TextStyle(color: Colors.black),),
-                            Text(userController.getActiveAlarmList[index].userName!,style: TextStyle(color: Colors.black,fontSize: 18),),
+                            Text(userController.getInActiveAlarmList[index].userName!,style: TextStyle(color: Colors.black,fontSize: 18),),
                           ]),
                     ),
                   ),
